@@ -1,6 +1,5 @@
 trigger:
 - data_checking
-
 paths:
  include:
   - 'csv/*'
