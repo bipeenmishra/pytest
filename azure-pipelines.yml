@@ -1,6 +1,9 @@
 trigger:
 - data_checking
 
+paths:
+ include:
+  - 'csv/*'
 pool:
   vmImage: 'ubuntu-latest'
 strategy:
